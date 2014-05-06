@@ -3,6 +3,7 @@ package controllers
 import play.api.mvc._
 import play.api.libs.concurrent.Execution.Implicits._
 import play.api.libs.ws.WS
+import play.api.Play.current
 
 object Application extends Controller {
 
